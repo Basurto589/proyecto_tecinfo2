@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Igualdad de género</title>
+    <link rel="stylesheet" href="diseño.css">
+    <script src="mi-script.js" defer></script>
+</head>
+<body>
+    <marquee class="marquesina">TECNOLOGÍAS DE LA INFORMACIÓN II</marquee>
+
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Bienvenida</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="#">Información de Proyecto</a></li>
+            <li><a href="#">Quiénes somos</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+    </nav>
+
+    <main class="portada">
+        <h1>Igualdad de género</h1>
+        <img src="imagen.jpg" alt="Imagen sobre igualdad de género" class="portada-img">
+
+        <section class="informacion">
+            <h2>Integrantes del equipo:</h2>
+            <ul>
+                <li>Shaila Basurto</li>
+                <li>Erick Zermeño</li>
+                <li>Erick Pacheco</li>
+                <li>Enrique Escudero</li>
+                <li>Ximena Gamboa</li>
+            </ul>
+            <p><strong>Campus:</strong> [Nombre del campus]</p>
+            <p><strong>Docente:</strong> Mora Granados Beatriz Janet</p>
+        </section>
+
+        <button id="interactivo">Haz clic aquí</button>
+    </main>
+</body>
+</html>
