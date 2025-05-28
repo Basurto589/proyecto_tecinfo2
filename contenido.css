@@ -1,0 +1,80 @@
+/* Colores llamativos: púrpura, turquesa y blanco */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f0ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a1b9a;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.intro {
+    background-color: #e0f7fa;
+    padding: 30px;
+    text-align: center;
+}
+
+.galeria {
+    background-color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.galeria h2 {
+    margin-bottom: 20px;
+    color: #6a1b9a;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagenes img {
+    border: 6px solid #26c6da;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.imagenes img:hover {
+    transform: scale(1.05);
+}
+
+.accion {
+    background-color: #fce4ec;
+    text-align: center;
+    padding: 30px;
+}
+
+button {
+    background-color: #ab47bc;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #8e24aa;
+}
+
+footer {
+    background-color: #6a1b9a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
