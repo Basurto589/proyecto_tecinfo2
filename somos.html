@@ -1,44 +1,59 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8" />
     <title>Somos</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
-        /* Paleta de colores rosa */
         body {
             margin: 0;
             font-family: Arial, sans-serif;
             background-color: #ffe6f0;
             color: #5a0035;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 20px;
         }
 
         header {
             background-color: #ffb6c1;
-            padding: 20px;
+            width: 100%;
+            padding: 20px 0;
             text-align: center;
             color: white;
-        }
-
-        main {
-            padding: 20px;
+            margin-bottom: 30px;
         }
 
         h1 {
             color: #c71585;
+            margin: 0;
+        }
+
+        main {
+            max-width: 600px;
+            text-align: center;
         }
 
         p {
             font-size: 1.2em;
             line-height: 1.6;
+            margin-bottom: 30px;
         }
 
-        iframe {
+        button {
+            background-color: #c71585;
+            color: white;
             border: none;
-            width: 100%;
-            height: 500px;
-            margin-top: 20px;
-            box-shadow: 0 0 10px rgba(199, 21, 133, 0.3);
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #a2106a;
         }
     </style>
 </head>
@@ -49,21 +64,16 @@
 
     <main>
         <p>
-            Somos alumnos de bachillerato que cursamos el cuarto semestre.<br>
-            Nuestro objetivo es comunicar la importancia de la igualdad de género.<br>
-            Creemos que la educación es la base para construir una sociedad justa.<br>
-            Buscamos concientizar a través de proyectos creativos y colaborativos.<br>
+            Somos alumnos de bachillerato que cursamos el cuarto semestre.<br />
+            Nuestro objetivo es comunicar la importancia de la igualdad de género.<br />
+            Creemos que la educación es la base para construir una sociedad justa.<br />
+            Buscamos concientizar a través de proyectos creativos y colaborativos.<br />
             Este espacio refleja nuestro compromiso con un cambio positivo.
         </p>
 
-        <h2>Presentación</h2>
-        <p>A continuación, te compartimos una presentación sobre nuestro tema:</p>
-
-        <!-- Presentación de Canva incrustada -->
-        <iframe 
-             <a href="https://www.canva.com/design/DAGpawSsXXY/o4QysdapY_rf8L8vLpNSGw/view?embed"  allowfullscreen loading="lazy">
-             </a>
-        </iframe>
+        <button onclick="window.open('https://www.canva.com/design/DAGpawSsXXY/o4QysdapY_rf8L8vLpNSGw/view', '_blank')">
+            Ver Presentación
+        </button>
     </main>
 </body>
 </html>
